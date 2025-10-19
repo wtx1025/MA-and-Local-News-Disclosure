@@ -17,4 +17,4 @@ We construct firm characteristics and control variables in SAS (following establ
 3. Run `3_combined_car.sas`:    
     i. This code construct combined_car3 and combined_car5.  
    ii. Use `crsp_data.csv` and `mna_comp_crsp.7bdat` as inputs, the code generates `mna_media_ccar.7bdat` as the output dataset.  
-5. Run `4_accounting_quality1`:  
+5. Run `4a_accounting_quality1`:  
