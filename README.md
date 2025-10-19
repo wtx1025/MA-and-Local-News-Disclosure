@@ -32,4 +32,7 @@ We construct firm characteristics and control variables in SAS (following establ
 8. Run `6a_conservatism1` and `6b_conservatism2`:  
     i. This two codes construct conservatism measure following [Ahmed et al. (2023)](https://onlinelibrary.wiley.com/doi/pdf/10.1111/1911-3846.12814?casa_token=lCFp8U_1_G0AAAAA%3A9VPgcgwuKMI1_c9bn2C5zRuD-rQz9QcCo9K2wxiY2vOE9mOaTH29jpbzhqau08cG_BlX5zIjUhF4b9joJA).  
    ii. `6a_conservatism1` uses `conservatism_compustat_data.csv` and `mna_media_final.7bdat` as inputs, generates `mna_media_conservatism1`; `6b_conservatism2` uses `conservatism_comp_data.csv`, `crsp_monthly_data.csv`, and `mna_media_conservatism1` as inputs, generates `mna_media_conservatism2.7bdat` and `mna_media_conservatism.csv`.
+9. Run `7_comparability`:  
+    i. This code construct accounting comparability measure, following [Chen et al. (2017)](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1911-3846.12380?casa_token=GNeW26xEAfsAAAAA:4cgKU6L9YDuZWcFZ4zeyXwCGsEmpUNCBwH9isjxQ3H9VSUTyCfsJSUpNkTzEHGUwi75Aj185c_-6UtURCQ).  
+   ii. Using `compustat_quarterly_data.csv`, `crsp_data.csv`, and `mna_media_final.7bdat`, the code generates `mna_media_comparability.7bdat` and `mna_media_comparability.csv`.  
    
