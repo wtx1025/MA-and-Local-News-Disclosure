@@ -7,6 +7,3 @@ The core premise is that local newspaper closures reduce publicly available firm
 ## **Description**
 
 We construct firm characteristics and control variables in SAS (following established literature). and conduct the empirical analysis in Stata. The sequence for running the .sas and .do files is as follows:
-
-1. Run 1.1_control_variables_compustat.sas:
-   i. this code 
