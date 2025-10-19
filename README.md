@@ -23,7 +23,7 @@ We construct firm characteristics and control variables in SAS (following establ
 5. Run `4b_accounting_quality2.sas`:  
     i. This code construct Big4 and SharedAuditor as control variables.  
    ii. Using `aq_cmopustat_data.csv`, `aa_data.csv`, and `mna_media_aq.7bdat` as inputs, the code generates `mna_media_big4.7bdat` as the output dataset.
-6. Run `5a_additional_controls.sas`:
-    i. This code construct liquidity and sale growth as further control variables.
+6. Run `5a_additional_controls.sas`:  
+    i. This code construct liquidity and sale growth as further control variables.  
    ii. Using `additional_compustat_data.csv` and `mna_media_big4.7bdat` as inputs, the code generates `mna_media_SaleGR.7bdat` as the output dataset.
    
