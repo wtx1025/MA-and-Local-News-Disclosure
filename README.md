@@ -12,8 +12,9 @@ We construct firm characteristics and control variables in SAS (following establ
    i. This code construct control variables using Compustat, including size, leverage, free cash flow, tobin's Q, ROA, and MTB.  
   ii. Use `compustat_data.csv` and `mna_03_18_media_ctr.7bdat` as inputs; the code generates `mna_media_comp.7bdat` as the output dataset.  
 2. Run `2_control_variables_crsp.sas`:  
-    i. This code construct control variables using CRSP, including runup and relative deal size.  
-   ii. Use `crsp_data.csv` and `mna_media_comp.7bdat` as inputs, the code generates `mna_comp_crsp.7bdat` as the output dataset.  
-3. Run `3_combined_car.sas`:  
-    i. This code construct combined_car3 and combined_car5.
-4. Run `4_accounting_quality1`:  
+    i. This code construct control variables using CRSP, including runup and relative deal size.   
+   ii. Use `crsp_data.csv` and `mna_media_comp.7bdat` as inputs, the code generates `mna_media_comp_crsp.7bdat` as the output dataset.  
+3. Run `3_combined_car.sas`:    
+    i. This code construct combined_car3 and combined_car5.  
+   ii. Use `crsp_data.csv` and `mna_comp_crsp.7bdat` as inputs, the code generates `mna_media_ccar.7bdat` as the output dataset.  
+5. Run `4_accounting_quality1`:  
