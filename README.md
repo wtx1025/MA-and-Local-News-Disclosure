@@ -14,6 +14,6 @@ We construct firm characteristics and control variables in SAS (following establ
 2. Run `2_control_variables_crsp.sas`:  
     i. This code construct control variables using CRSP, including runup and relative deal size.  
    ii. Use `crsp_data.csv` and `mna_media_comp.7bdat` as inputs, the code generates `mna_comp_crsp.7bdat` as the output dataset.  
-3. Run `3_combined_car.sas`:
+3. Run `3_combined_car.sas`:  
     i. This code construct combined_car3 and combined_car5.
 4. Run `4_accounting_quality1`:  
