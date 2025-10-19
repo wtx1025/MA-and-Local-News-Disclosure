@@ -26,4 +26,7 @@ We construct firm characteristics and control variables in SAS (following establ
 6. Run `5a_additional_controls.sas`:  
     i. This code construct liquidity and sale growth as further control variables.  
    ii. Using `additional_compustat_data.csv` and `mna_media_big4.7bdat` as inputs, the code generates `mna_media_SaleGR.7bdat` as the output dataset.
+7. Run `5b_additional_controls2.sas`:  
+    i. This code construct retcorr as further control variable.  
+   ii. Using `crsp_data.csv` and `mna_media_SaleGR.7bdat` as inputs, the code generates `mna_media_final.csv` and `mna_media_final.7bdat`.  
    
